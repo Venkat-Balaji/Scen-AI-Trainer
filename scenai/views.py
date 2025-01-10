@@ -4,7 +4,7 @@ from .models import Conversation, Message
 import google.generativeai as genai
 
 # Configure the generative AI API
-genai.configure(api_key="AIzaSyB5YNppBGZgDl6pIxCRdfq5HOJ-Pfnvdjw")
+genai.configure(api_key="YOUR API KEY")
 
 # Define scenarios
 SCENARIOS = {
